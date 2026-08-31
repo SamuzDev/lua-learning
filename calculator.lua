@@ -13,9 +13,6 @@ function M.multiply(a, b)
 end
 
 function M.divide(a, b)
-    if b == 0 then
-        error("Cannot divide by zero")
-    end
     return a / b
 end
 
