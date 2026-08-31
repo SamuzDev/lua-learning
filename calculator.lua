@@ -19,4 +19,12 @@ function M.divide(a, b)
     return a / b
 end
 
+function M.power(a, b)
+    return a ^ b
+end
+
+function M.modulo(a, b)
+    return a % b
+end
+
 return M
